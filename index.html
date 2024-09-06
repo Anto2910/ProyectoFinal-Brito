@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert2 -->
+</head>
+<body>
+    <header class="barranav">
+        <nav class="pages">
+            <div class="brand-logo">
+                <img src="./img/logochico.png" alt="Logo de la Marca">
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="pages-links">
+                <li><a href="../index.html" target="_self">Home</a></li>
+                <li><a href="../pages/productos.html" target="_self">Productos</a></li>
+                <li><a href="../pages/distribución.html" target="_self">Distribución</a></li>
+                <li><a href="../pages/recetas.html" target="_self">Recetas</a></li>
+                <li><a href="../pages/contacto.html" target="_self">Contacto</a></li>
+                <li><a href="https://www.instagram.com/urquiza_sa/?utm_source=ig_web_button_share_sheet" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=61559996370934" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="productos">
+            <h2>Productos</h2>
+            <div id="lista-productos"></div>
+        </div>
+    </main>
+
+    <div id="carrito-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Tu Carrito</h2>
+            <ul id="lista-carrito"></ul>
+            <p>Total: $<span id="total-carrito">0.00</span></p>
+            <button id="comprar">Comprar</button>
+        </div>
+    </div>
+
+    <div id="pago-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Método de Pago</h2>
+            <select id="medio-pago">
+                <option value="débito">Débito</option>
+                <option value="crédito">Crédito</option>
+                <option value="otro">Otro</option>
+            </select>
+            <button id="confirmar-pago">Confirmar Pago</button>
+        </div>
+    </div>
+
+    <div id="exito-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>¡Pedido Realizado con Éxito!</h2>
+            <p id="mensaje-exito"></p>
+        </div>
+    </div>
+
+    <div id="carrito" title="Ver carrito">
+        🛒
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Urquiza</p>
+        <img src="./img/logo.png" alt="Logo de la empresa">
+    </footer>
+
+    <script src="./JS/main.js"></script>
+</body>
+</html>

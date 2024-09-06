@@ -1,0 +1,11 @@
+[
+    { "id": 1, "nombre": "CLÁSICAS", "precio": 800.00, "imagen": "img/imagen1.png" },
+    { "id": 2, "nombre": "PIZZA", "precio": 850.00, "imagen": "img/imagen2.png" },
+    { "id": 3, "nombre": "QUESO", "precio": 890.00, "imagen": "img/imagen3.png" },
+    { "id": 4, "nombre": "SALAME", "precio": 850.00, "imagen": "img/imagen4.png" },
+    { "id": 5, "nombre": "JAMÓN", "precio": 850.00, "imagen": "img/imagen5.png" },
+    { "id": 6, "nombre": "CHEDDAR", "precio": 890.00, "imagen": "img/imagen6.png" },
+    { "id": 7, "nombre": "CEBOLLA", "precio": 850.00, "imagen": "img/imagen7.png" },
+    { "id": 8, "nombre": "BARBACOA", "precio": 890.00, "imagen": "img/imagen8.png" },
+    { "id": 9, "nombre": "AJO Y OLIVA", "precio": 910.00, "imagen": "img/imagen9.png" }
+]
